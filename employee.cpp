@@ -1,7 +1,7 @@
 #include "employee.h"
 #include <QCryptographicHash>
 #include <qbytearray.h>
-
+//2 коммит мастер
 Employee::Employee()
     : DbRecord()
 {
