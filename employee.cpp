@@ -71,6 +71,7 @@ Employee::~Employee()
 	}
 }
 
+//функция, которая апдейтит бдшку
 bool Employee::update() const
 {
     if(DbManager::manager().checkConnection())
