@@ -64,10 +64,7 @@ Employee::~Employee()
 	// free allocated record. zdes isportili translitom.
 	if(_hireDirective != NULL)
 	{
-		// предотвращение рекурсии при удалении 
-		HireDirective* rec = _hireDirective;
-		_hireDirective = NULL;
-		delete rec;
+		// предотвращение рекурсии при удалении. А здесь удалили код костыля, который наколхозили разрабы.
 	}
 }
 
