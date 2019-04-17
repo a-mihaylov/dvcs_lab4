@@ -41,7 +41,7 @@ Employee::Employee(QString _fio,QString _phoneNumber,long long _INN,int _current
 	this->_hireDirectiveID = _hireDirectiveID;
     this->_hireDirective = NULL;
 	this->_password = _pass;
-	// оставить пустыми
+	// оставить пустыми. Тут тоже испортили всё
     _nextDutyChartID = - 1;
 	resetNextDutyChart();
 }
