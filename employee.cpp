@@ -125,6 +125,7 @@ bool Employee::createDbTable()
     }
     else
     {
+		// какой-то костыль что ли???
     }
     return success;
 }
