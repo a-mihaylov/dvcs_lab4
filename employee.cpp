@@ -61,7 +61,7 @@ Employee::Employee(int id, QString _fio,QString _phoneNumber,long long _INN,int 
 }
 Employee::~Employee()
 {
-	// free allocated record
+	// free allocated record. zdes isportili translitom.
 	if(_hireDirective != NULL)
 	{
 		// предотвращение рекурсии при удалении 
