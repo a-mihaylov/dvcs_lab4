@@ -105,6 +105,7 @@ s+="as";
     }
     return false;
 }
+// функция, которая создает табличку в бдшке
 bool Employee::createDbTable()
 {
 	bool success = false;
