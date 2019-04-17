@@ -29,7 +29,7 @@ Employee::Employee(const Employee& employee)
     _nextDutyChartID= - 1;
 }
 
-/*! Конструктор создания новой записи
+/*! Конструктор создания новой записи. Здесь кто-то что-то испортил в соседней ветке
 Предполагается, что приказ и график уже созданы и имеют ID
 */
 Employee::Employee(QString _fio,QString _phoneNumber,long long _INN,int _currentDutyChartID,int _hireDirectiveID,QString _pass)
