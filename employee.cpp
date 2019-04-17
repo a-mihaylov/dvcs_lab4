@@ -15,6 +15,7 @@ Employee::Employee(int id)
 	_hireDirective = NULL;
     _nextDutyChartID = -1;
 }
+//конструктор с параметром класса
 Employee::Employee(const Employee& employee)
 {
     this->_id = employee.id();
