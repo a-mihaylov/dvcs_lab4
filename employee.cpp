@@ -56,7 +56,7 @@ Employee::Employee(int id, QString _fio,QString _phoneNumber,long long _INN,int 
     this->_hireDirective = NULL;
 	this->_password = _pass;
     _nextDutyChartID = -1;
-	// оставить пустыми
+	// оставить пустыми. Да всё везде попортили
 	resetNextDutyChart();
 }
 Employee::~Employee()
