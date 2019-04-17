@@ -8,6 +8,7 @@ Employee::Employee()
 	throw("it`s wrong constructor!");
 	_hireDirective = NULL;
 }
+//конструктор с параметром инт
 Employee::Employee(int id)
     : DbRecord(id)
 {
